@@ -1,1 +1,85 @@
 /* Start coding here */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 65.95px 13% 140.05px 13%;
+}
+
+h1 {
+    font-family: "Poppins";
+    color: #183B56;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 29.33px;
+    row-gap: 30px;
+    margin-top: 70px;
+}
+
+.card {
+    border: 2px solid hsla(0, 27%, 92%, 0.797);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 30px;
+    width: 333px;
+    height: 268px;
+    h2 {
+        margin-top: 60px;
+        font-family: "Poppins";
+        font-size: 20px;
+        color: #183B56;
+    }
+    a {
+        margin-top: 8px;
+        font-family: "DM Sans";
+        color: #5A7184;
+    }
+    .arrow {
+        position: absolute;
+        right: 30px;
+        bottom: 30px;
+    }
+}
+
+.lastcard {
+    width: 333px;
+    height: 268px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+    body {
+        padding: 31.2px 6.4% 79.8px 6.4%;
+    }
+}
+
